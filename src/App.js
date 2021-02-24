@@ -1,10 +1,14 @@
+import React from 'react'
+import CardBacks from './components/CardBacks';
+
 function App() {
   return (
-    <div>
+    <React.Fragment>
       <header>
         <h1>Hearthstone Card Back Art</h1>
       </header>
-    </div>
+      <CardBacks />
+    </React.Fragment>
   );
 }
 
